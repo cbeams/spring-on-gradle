@@ -1,0 +1,7 @@
+{
+  "name": "Case Study: Spring Projects on Gradle",
+  "description": "Over the last year, many of SpringSource's open-source projects have made the move from both Ant and Maven to Gradle.  This session will explore the reasons for this decision, benefits realized, and problems encountered.  You'll see how we've achieved a concise and reusable, yet easily extensible build toolkit suited for the complex project automation needs of open-source projects.",
+  "sections": [
+    {"section":"first"}
+  ]
+}
