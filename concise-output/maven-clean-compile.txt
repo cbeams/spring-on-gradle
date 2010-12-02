@@ -1,0 +1,339 @@
+[INFO] Scanning for projects...
+[INFO] Reactor build order: 
+[INFO]   Spring Integration Core
+[INFO]   Spring Integration Test Support
+[INFO]   Spring Integration Event Support
+[INFO]   Spring Integration RSS Feed Support
+[INFO]   Spring Integration File Support
+[INFO]   Spring Integration FTP Support
+[INFO]   Spring Integration Groovy Support
+[INFO]   Spring Integration HTTP Support
+[INFO]   Spring Integration HttpInvoker Support
+[INFO]   Spring Integration Stream Support
+[INFO]   Spring Integration IP Support
+[INFO]   Spring Integration JDBC Support
+[INFO]   Spring Integration JMS Support
+[INFO]   Spring Integration JMX Support
+[INFO]   Spring Integration Mail Support
+[INFO]   Spring Integration RMI Support
+[INFO]   Spring Integration Security Support
+[INFO]   Spring Integration SFTP Support
+[INFO]   Spring Integration Twitter Support
+[INFO]   Spring Integration Web Services Support
+[INFO]   Spring Integration XML Support
+[INFO]   Spring Integration XMPP Support
+[INFO]   Spring Integration
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Core
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-core/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 297 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-core/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Test Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-test/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 7 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-test/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Event Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-event/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 6 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-event/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration RSS Feed Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-feed/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 3 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-feed/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration File Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-file/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 45 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-file/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration FTP Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-ftp/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 10 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-ftp/target/classes
+[WARNING] /Users/cbeams/Work/pax/spring-integration/spring-integration-ftp/src/main/java/org/springframework/integration/ftp/session/FtpSession.java:[63,18] ls(java.lang.String) in org.springframework.integration.ftp.session.FtpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : org.apache.commons.net.ftp.FTPFile[]
+required: F[]
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Groovy Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-groovy/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 9 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-groovy/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration HTTP Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-http/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 18 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-http/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration HttpInvoker Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-httpinvoker/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 5 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-httpinvoker/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Stream Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-stream/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 7 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-stream/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration IP Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-ip/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 51 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-ip/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration JDBC Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-jdbc/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 23 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 12 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-jdbc/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration JMS Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-jms/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 20 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-jms/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration JMX Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-jmx/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 5 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 28 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-jmx/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Mail Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-mail/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 18 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-mail/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration RMI Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-rmi/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 5 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-rmi/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Security Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-security/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 8 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-security/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration SFTP Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-sftp/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 4 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 8 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-sftp/target/classes
+[WARNING] /Users/cbeams/Work/pax/spring-integration/spring-integration-sftp/src/main/java/org/springframework/integration/sftp/session/SftpSession.java:[71,18] ls(java.lang.String) in org.springframework.integration.sftp.session.SftpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : com.jcraft.jsch.ChannelSftp.LsEntry[]
+required: F[]
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Twitter Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-twitter/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 3 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 16 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-twitter/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration Web Services Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-ws/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 12 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-ws/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration XML Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-xml/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 6 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 37 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-xml/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration XMPP Support
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] Deleting directory /Users/cbeams/Work/pax/spring-integration/spring-integration-xmpp/target
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 4 resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 16 source files to /Users/cbeams/Work/pax/spring-integration/spring-integration-xmpp/target/classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring Integration
+[INFO]    task-segment: [clean, compile]
+[INFO] ------------------------------------------------------------------------
+[INFO] [clean:clean {execution: default-clean}]
+[INFO] No goals needed for project - skipping
+[INFO] 
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] ------------------------------------------------------------------------
+[INFO] Spring Integration Core ............................... SUCCESS [9.293s]
+[INFO] Spring Integration Test Support ....................... SUCCESS [0.575s]
+[INFO] Spring Integration Event Support ...................... SUCCESS [0.426s]
+[INFO] Spring Integration RSS Feed Support ................... SUCCESS [0.698s]
+[INFO] Spring Integration File Support ....................... SUCCESS [0.986s]
+[INFO] Spring Integration FTP Support ........................ SUCCESS [0.522s]
+[INFO] Spring Integration Groovy Support ..................... SUCCESS [0.500s]
+[INFO] Spring Integration HTTP Support ....................... SUCCESS [0.681s]
+[INFO] Spring Integration HttpInvoker Support ................ SUCCESS [0.338s]
+[INFO] Spring Integration Stream Support ..................... SUCCESS [0.216s]
+[INFO] Spring Integration IP Support ......................... SUCCESS [0.961s]
+[INFO] Spring Integration JDBC Support ....................... SUCCESS [0.537s]
+[INFO] Spring Integration JMS Support ........................ SUCCESS [1.049s]
+[INFO] Spring Integration JMX Support ........................ SUCCESS [0.529s]
+[INFO] Spring Integration Mail Support ....................... SUCCESS [0.933s]
+[INFO] Spring Integration RMI Support ........................ SUCCESS [0.259s]
+[INFO] Spring Integration Security Support ................... SUCCESS [0.565s]
+[INFO] Spring Integration SFTP Support ....................... SUCCESS [0.266s]
+[INFO] Spring Integration Twitter Support .................... SUCCESS [0.490s]
+[INFO] Spring Integration Web Services Support ............... SUCCESS [0.879s]
+[INFO] Spring Integration XML Support ........................ SUCCESS [0.440s]
+[INFO] Spring Integration XMPP Support ....................... SUCCESS [0.314s]
+[INFO] Spring Integration .................................... SUCCESS [0.003s]
+[INFO] ------------------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESSFUL
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 22 seconds
+[INFO] Finished at: Wed Nov 24 18:08:32 MST 2010
+[INFO] Final Memory: 35M/84M
+[INFO] ------------------------------------------------------------------------

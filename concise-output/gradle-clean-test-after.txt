@@ -1,0 +1,227 @@
+:buildSrc:clean
+:buildSrc:compileJava
+:buildSrc:compileGroovy
+:buildSrc:processResources
+:buildSrc:classes
+:buildSrc:jar
+:buildSrc:assemble
+:buildSrc:compileTestJava
+:buildSrc:compileTestGroovy
+:buildSrc:processTestResources
+:buildSrc:testClasses
+:buildSrc:test
+:buildSrc:check
+:buildSrc:build
+:clean UP-TO-DATE
+:docs:clean UP-TO-DATE
+:spring-integration-core:clean
+:spring-integration-event:clean
+:spring-integration-feed:clean
+:spring-integration-file:clean
+:spring-integration-ftp:clean
+:spring-integration-groovy:clean
+:spring-integration-http:clean
+:spring-integration-httpinvoker:clean
+:spring-integration-ip:clean
+:spring-integration-jdbc:clean
+:spring-integration-jms:clean
+:spring-integration-jmx:clean
+:spring-integration-mail:clean
+:spring-integration-rmi:clean
+:spring-integration-security:clean
+:spring-integration-sftp:clean
+:spring-integration-stream:clean
+:spring-integration-test:clean
+:spring-integration-twitter:clean
+:spring-integration-ws:clean
+:spring-integration-xml:clean
+:spring-integration-xmpp:clean
+:spring-integration-core:compileJava
+:spring-integration-core:processResources
+:spring-integration-core:classes
+:spring-integration-core:compileTestJava
+:spring-integration-core:processTestResources
+:spring-integration-core:testClasses
+:spring-integration-core:test
+:spring-integration-core:bundlor
+:spring-integration-core:jar
+:spring-integration-core:sourceJar
+:spring-integration-event:compileJava
+:spring-integration-event:processResources
+:spring-integration-event:classes
+:spring-integration-test:compileJava
+:spring-integration-test:processResources
+:spring-integration-test:classes
+:spring-integration-test:bundlor
+:spring-integration-test:jar
+:spring-integration-test:sourceJar
+:spring-integration-event:compileTestJava
+:spring-integration-event:processTestResources
+:spring-integration-event:testClasses
+:spring-integration-event:test
+:spring-integration-feed:compileJava
+:spring-integration-feed:processResources
+:spring-integration-feed:classes
+:spring-integration-feed:compileTestJava
+:spring-integration-feed:processTestResources
+:spring-integration-feed:testClasses
+:spring-integration-feed:test
+:spring-integration-file:compileJava
+:spring-integration-file:processResources
+:spring-integration-file:classes
+:spring-integration-file:compileTestJava
+:spring-integration-file:processTestResources
+:spring-integration-file:testClasses
+:spring-integration-file:test
+:spring-integration-file:bundlor
+:spring-integration-file:jar
+:spring-integration-file:sourceJar
+:spring-integration-ftp:compileJava
+/Users/cbeams/Work/pax/spring-integration/spring-integration-ftp/src/main/java/org/springframework/integration/ftp/session/FtpSession.java:63: warning: ls(java.lang.String) in org.springframework.integration.ftp.session.FtpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : org.apache.commons.net.ftp.FTPFile[]
+required: F[]
+        public FTPFile[] ls(String path) {
+                         ^
+1 warning
+:spring-integration-ftp:processResources
+:spring-integration-ftp:classes
+:spring-integration-ftp:compileTestJava
+:spring-integration-ftp:processTestResources
+:spring-integration-ftp:testClasses
+:spring-integration-ftp:test
+:spring-integration-groovy:compileJava
+:spring-integration-groovy:processResources
+:spring-integration-groovy:classes
+:spring-integration-groovy:compileTestJava
+:spring-integration-groovy:processTestResources
+:spring-integration-groovy:testClasses
+:spring-integration-groovy:test
+:spring-integration-http:compileJava
+:spring-integration-http:processResources
+:spring-integration-http:classes
+:spring-integration-http:compileTestJava
+:spring-integration-http:processTestResources
+:spring-integration-http:testClasses
+:spring-integration-http:test
+:spring-integration-httpinvoker:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:spring-integration-httpinvoker:processResources
+:spring-integration-httpinvoker:classes
+:spring-integration-httpinvoker:compileTestJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:spring-integration-httpinvoker:processTestResources
+:spring-integration-httpinvoker:testClasses
+:spring-integration-httpinvoker:test
+:spring-integration-ip:compileJava
+:spring-integration-ip:processResources
+:spring-integration-ip:classes
+:spring-integration-ip:compileTestJava
+:spring-integration-ip:processTestResources
+:spring-integration-ip:testClasses
+:spring-integration-stream:compileJava
+:spring-integration-stream:processResources
+:spring-integration-stream:classes
+:spring-integration-stream:bundlor
+:spring-integration-stream:jar
+:spring-integration-stream:sourceJar
+:spring-integration-ip:test
+:spring-integration-jdbc:generateSql
+:spring-integration-jdbc:compileJava
+:spring-integration-jdbc:processResources
+:spring-integration-jdbc:classes
+:spring-integration-jdbc:compileTestJava
+:spring-integration-jdbc:processTestResources
+:spring-integration-jdbc:testClasses
+:spring-integration-jdbc:test
+:spring-integration-jms:compileJava
+:spring-integration-jms:processResources
+:spring-integration-jms:classes
+:spring-integration-jms:compileTestJava
+:spring-integration-jms:processTestResources
+:spring-integration-jms:testClasses
+:spring-integration-jms:test
+:spring-integration-jmx:compileJava
+:spring-integration-jmx:processResources
+:spring-integration-jmx:classes
+:spring-integration-jmx:compileTestJava
+:spring-integration-jmx:processTestResources
+:spring-integration-jmx:testClasses
+:spring-integration-jmx:test
+:spring-integration-mail:compileJava
+:spring-integration-mail:processResources
+:spring-integration-mail:classes
+:spring-integration-mail:compileTestJava
+:spring-integration-mail:processTestResources
+:spring-integration-mail:testClasses
+:spring-integration-mail:test
+:spring-integration-rmi:compileJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:spring-integration-rmi:processResources
+:spring-integration-rmi:classes
+:spring-integration-rmi:compileTestJava
+:spring-integration-rmi:processTestResources
+:spring-integration-rmi:testClasses
+:spring-integration-rmi:test
+:spring-integration-security:compileJava
+:spring-integration-security:processResources
+:spring-integration-security:classes
+:spring-integration-security:compileTestJava
+:spring-integration-security:processTestResources
+:spring-integration-security:testClasses
+:spring-integration-security:test
+:spring-integration-sftp:compileJava
+/Users/cbeams/Work/pax/spring-integration/spring-integration-sftp/src/main/java/org/springframework/integration/sftp/session/SftpSession.java:71: warning: ls(java.lang.String) in org.springframework.integration.sftp.session.SftpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : com.jcraft.jsch.ChannelSftp.LsEntry[]
+required: F[]
+        public LsEntry[] ls(String path) {
+                         ^
+1 warning
+:spring-integration-sftp:processResources
+:spring-integration-sftp:classes
+:spring-integration-sftp:compileTestJava
+:spring-integration-sftp:processTestResources
+:spring-integration-sftp:testClasses
+:spring-integration-sftp:test
+:spring-integration-stream:compileTestJava
+:spring-integration-stream:processTestResources
+:spring-integration-stream:testClasses
+:spring-integration-stream:test
+:spring-integration-test:compileTestJava
+:spring-integration-test:processTestResources
+:spring-integration-test:testClasses
+:spring-integration-test:test
+:spring-integration-twitter:compileJava
+:spring-integration-twitter:processResources
+:spring-integration-twitter:classes
+:spring-integration-twitter:compileTestJava
+:spring-integration-twitter:processTestResources
+:spring-integration-twitter:testClasses
+:spring-integration-twitter:test
+:spring-integration-ws:compileJava
+:spring-integration-ws:processResources
+:spring-integration-ws:classes
+:spring-integration-ws:compileTestJava
+:spring-integration-ws:processTestResources
+:spring-integration-ws:testClasses
+:spring-integration-ws:test
+:spring-integration-xml:compileJava
+:spring-integration-xml:processResources
+:spring-integration-xml:classes
+:spring-integration-xml:compileTestJava
+:spring-integration-xml:processTestResources
+:spring-integration-xml:testClasses
+:spring-integration-xml:test
+:spring-integration-xmpp:compileJava
+:spring-integration-xmpp:processResources
+:spring-integration-xmpp:classes
+:spring-integration-xmpp:compileTestJava
+:spring-integration-xmpp:processTestResources
+:spring-integration-xmpp:testClasses
+:spring-integration-xmpp:test
+
+BUILD SUCCESSFUL
+
+Total time: 5 mins 54.139 secs

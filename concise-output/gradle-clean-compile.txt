@@ -1,0 +1,93 @@
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy UP-TO-DATE
+:buildSrc:processResources UP-TO-DATE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava UP-TO-DATE
+:buildSrc:compileTestGroovy UP-TO-DATE
+:buildSrc:processTestResources UP-TO-DATE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test UP-TO-DATE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:clean UP-TO-DATE
+:docs:clean UP-TO-DATE
+:spring-integration-core:clean
+:spring-integration-event:clean
+:spring-integration-feed:clean
+:spring-integration-file:clean
+:spring-integration-ftp:clean
+:spring-integration-groovy:clean
+:spring-integration-http:clean
+:spring-integration-httpinvoker:clean
+:spring-integration-ip:clean
+:spring-integration-jdbc:clean
+:spring-integration-jms:clean
+:spring-integration-jmx:clean
+:spring-integration-mail:clean
+:spring-integration-rmi:clean
+:spring-integration-security:clean
+:spring-integration-sftp:clean
+:spring-integration-stream:clean
+:spring-integration-test:clean
+:spring-integration-twitter:clean
+:spring-integration-ws:clean
+:spring-integration-xml:clean
+:spring-integration-xmpp:clean
+:spring-integration-core:compileJava
+:spring-integration-core:processResources
+:spring-integration-core:classes
+:spring-integration-core:bundlor
+:spring-integration-core:jar
+:spring-integration-core:sourceJar
+:spring-integration-event:compileJava
+:spring-integration-feed:compileJava
+:spring-integration-file:compileJava
+:spring-integration-file:processResources
+:spring-integration-file:classes
+:spring-integration-file:bundlor
+:spring-integration-file:jar
+:spring-integration-file:sourceJar
+:spring-integration-ftp:compileJava
+/Users/cbeams/Work/pax/spring-integration/spring-integration-ftp/src/main/java/org/springframework/integration/ftp/session/FtpSession.java:63: warning: ls(java.lang.String) in org.springframework.integration.ftp.session.FtpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : org.apache.commons.net.ftp.FTPFile[]
+required: F[]
+	public FTPFile[] ls(String path) {
+	                 ^
+1 warning
+
+:spring-integration-groovy:compileJava
+:spring-integration-http:compileJava
+:spring-integration-httpinvoker:compileJava
+:spring-integration-ip:compileJava
+:spring-integration-jdbc:generateSql
+:spring-integration-jdbc:compileJava
+:spring-integration-jms:compileJava
+:spring-integration-jmx:compileJava
+:spring-integration-mail:compileJava
+:spring-integration-rmi:compileJava
+:spring-integration-security:compileJava
+:spring-integration-stream:compileJava
+:spring-integration-stream:processResources
+:spring-integration-stream:classes
+:spring-integration-stream:bundlor
+:spring-integration-stream:jar
+:spring-integration-stream:sourceJar
+:spring-integration-sftp:compileJava
+/Users/cbeams/Work/pax/spring-integration/spring-integration-sftp/src/main/java/org/springframework/integration/sftp/session/SftpSession.java:71: warning: ls(java.lang.String) in org.springframework.integration.sftp.session.SftpSession implements <F>ls(java.lang.String) in org.springframework.integration.file.remote.session.Session; return type requires unchecked conversion
+found   : com.jcraft.jsch.ChannelSftp.LsEntry[]
+required: F[]
+	public LsEntry[] ls(String path) {
+	                 ^
+1 warning
+
+:spring-integration-test:compileJava
+:spring-integration-twitter:compileJava
+:spring-integration-ws:compileJava
+:spring-integration-xml:compileJava
+:spring-integration-xmpp:compileJava
+
+BUILD SUCCESSFUL
+
+Total time: 45.752 secs
