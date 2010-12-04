@@ -1,6 +1,6 @@
 # Spring on Gradle
 
-Case study presentation covering the migration of certain Spring projects to the [[Gradle build system|http://gradle.org].
+Case study presentation covering the migration of certain Spring projects to the [Gradle build system](http://gradle.org).
 
 
 # To view the slides
@@ -9,4 +9,4 @@ Case study presentation covering the migration of certain Spring projects to the
 * cd spring-on-gradle
 * `gem install showoff`
 * `showoff serve`
-* [[http://localhost:9090|http://localhost:9090]]
+* [http://localhost:9090](http://localhost:9090)
