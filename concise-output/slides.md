@@ -138,7 +138,7 @@
          351    1626   22858
 
 
-    $ gradle clean compileJava
+    $ gradle clean compileJava | wc
          113     257    6378
 
 
