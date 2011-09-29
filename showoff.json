@@ -16,7 +16,7 @@
         {"section":"easy"},
             {"section":"ci"},
         {"section":"fast"},
-        {"section":"reuse"},
+        //{"section":"reuse"},
         {"section":"release"},
         {"section":"help"},
         {"section":"what-gradle-needs"},
